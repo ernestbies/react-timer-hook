@@ -9,11 +9,6 @@
         "build:prod": "rm -rf ./dist && webpack --config webpack.prod.js",
         "lint": "node_modules/.bin/eslint src"
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "yarn lint"
-        }
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/ernestbies/react-timer-hook.git"
@@ -60,8 +55,8 @@
         "react": "^16.8.0",
         "react-dom": "16.8.0",
         "styled-components": "^5.2.1",
-        "webpack": "^5.80.0",
-        "webpack-cli": "^5.0.2",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^4.13.3"
     },
     "peerDependencies": {
